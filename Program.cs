@@ -394,7 +394,7 @@ namespace ImLearningCSharp
             Console.WriteLine(str.Contains("Praveen", StringComparison.InvariantCultureIgnoreCase));
 
             String str1= "Praveen Lanka";
-            Console.WriteLine(str1.IndexOf("L", StringComparison.InvariantCultureIgnoreCase));
+            Console.WriteLine(str1.IndexOf("La", StringComparison.InvariantCultureIgnoreCase));
 
             #endregion
 
