@@ -364,24 +364,37 @@ namespace ImLearningCSharp
             //Console.WriteLine("Book Author: " + booKAuthor);
 
 
-            string firstname = "Praveen";
-            string lastName = "Lanka";
-            DateTime dateTime = DateTime.Now;
-            int age = 20;
+            //string firstname = "Praveen";
+            //string lastName = "Lanka";
+            //DateTime dateTime = DateTime.Now;
+            //int age = 20;
 
-            //Console.WriteLine(string.Format("{0}  {1} {2} age is {3}", firstname, lastName , dateTime,age));
+            ////Console.WriteLine(string.Format("{0}  {1} {2} age is {3}", firstname, lastName , dateTime,age));
 
-            var name = (fN:"Praveen", lN: "Lanka");
-            Console.WriteLine(name.fN.ToString());
-            Console.WriteLine(name.lN.ToString());
-
-
-            DateTime dt = DateTime.Now;
-            Console.WriteLine(string.Format("{0:MM/dd/yyyy hh:mm tt}", dt));
+            //var name = (fN:"Praveen", lN: "Lanka");
+            //Console.WriteLine(name.fN.ToString());
+            //Console.WriteLine(name.lN.ToString());
 
 
-            string FullName = $"{firstname} - {lastName}";
-            Console.WriteLine(FullName);
+            //DateTime dt = DateTime.Now;
+            //Console.WriteLine(string.Format("{0:MM/dd/yyyy hh:mm tt}", dt));
+
+
+            //string FullName = $"{firstname} - {lastName}";
+            //Console.WriteLine(FullName);
+
+
+
+            #endregion
+
+
+            #region Contains
+
+            String str = "Praveen Lanka";
+            Console.WriteLine(str.Contains("Praveen", StringComparison.InvariantCultureIgnoreCase));
+
+            String str1= "Praveen Lanka";
+            Console.WriteLine(str1.IndexOf("L", StringComparison.InvariantCultureIgnoreCase));
 
             #endregion
 
