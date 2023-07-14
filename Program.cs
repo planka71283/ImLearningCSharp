@@ -398,6 +398,14 @@ namespace ImLearningCSharp
 
             #endregion
 
+
+
+        }
+
+        public string MyMethod()
+        {
+            return "";
+
         }
     }
 }
