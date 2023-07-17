@@ -234,7 +234,7 @@ namespace ImLearningCSharp
 
             #region Strings
 
-            Console.WriteLine("String Related:");
+            //Console.WriteLine("String Related:");
 
 
             //string var2 = "This is Second String";
@@ -391,21 +391,30 @@ namespace ImLearningCSharp
             #region Contains
 
             String str = "Praveen Lanka";
-            Console.WriteLine(str.Contains("Praveen", StringComparison.InvariantCultureIgnoreCase));
+          //  Console.WriteLine(str.Contains("Praveen", StringComparison.InvariantCultureIgnoreCase));
 
             String str1= "Praveen Lanka";
-            Console.WriteLine(str1.IndexOf("La", StringComparison.InvariantCultureIgnoreCase));
+            //Console.WriteLine(str1.IndexOf("La", StringComparison.InvariantCultureIgnoreCase));
 
             #endregion
 
 
+            #region Object
 
+            Object obj = 1;
+            obj = true;
+            obj = "Praveen";
+            obj = new { FirstName = "Praveen", LastName = "Lanka", MiddleName = "Kumar" };
+
+
+            Console.WriteLine($"Value of Object is  "+ obj + " - Type of Object is :"  + obj.GetType());
+
+
+            #endregion
+
+             
         }
 
-        public string MyMethod()
-        {
-            return "";
 
-        }
     }
 }
